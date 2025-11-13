@@ -1,31 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style/index.css" />
     <title>Биография</title>
   </head>
   <body>
     <header>
-      <div>
-        <button>
-          https://www.youtube.com/watch?v=cA4RiXAkyyc&list=RDcA4RiXAkyyc&start_radio=1
-        </button>
-        <button>
-          https://www.youtube.com/watch?v=jR-PA6hz1NQ&list=RDjR-PA6hz1NQ&start_radio=1
-        </button>
-        <button>
-          https://www.youtube.com/watch?v=iCAHe7Kcvzs&list=RDiCAHe7Kcvzs&index=1
-        </button>
+      <div class="select-album">
+        <button class="select-album-button select-album-button-krovoskot" />
+        <button class="select-album-button select-album-button-slavakpss" />
+        <button class="select-album-button select-album-button-johnnygaric" />
       </div>
       <div>Музыкальная дорожка</div>
     </header>
     <main>
-      <section></section>
+      <section class="section-table-contents">
+        <div class="section-table-contents-text">
+          <span class="text-biography">Биография</span>
+          <span class="text-description1">
+            Родился в Калининграде в 2006 на краю города
+          </span>
+          <span class="text-description2">
+            Стильное портфолио, чтобы вызвать жалость
+          </span>
+        </div>
+      </section>
+      <section class="section-gap">
+        <p class="section-gap-text">Ну чё потом?</p>
+      </section>
+      <section class="section-application">
+        <div>
+          <p>Все признали, я пишу код красиво — каллиграфия</p>
+          <p>Эй, шесть стильных проектов ща на моём портфолио</p>
+        </div>
+        <div>1. Расписание КГТУ</div>
+        <div>2. MetroNavigator</div>
+        <div>3. Guide</div>
+        <div>4. College39Bot</div>
+        <div>5. WidgetVoting</div>
+        <div>6. SampBinder</div>
+      </section>
     </main>
     <footer>Социальные сети:</footer>
   </body>

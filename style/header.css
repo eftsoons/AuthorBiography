@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: var(--bg-000);
+  border-bottom: 1px solid var(--border-000);
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.select-album {
+  display: flex;
+  gap: 8px;
+}
+
+.select-album-button {
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  border-radius: 16px;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+}
+
+.select-album-button-krovoskot {
+  background-image: url("/assets/album/KROVOSTOK/photo640x640.jpg");
+}
+
+.select-album-button-slavakpss {
+  background-image: url("/assets/album/SLAVAKPSS/photo640x640.jpg");
+}
+
+.select-album-button-johnnygaric {
+  background-image: url("/assets/album/JOHNNYGARIC/photo640x640.jpg");
+}
