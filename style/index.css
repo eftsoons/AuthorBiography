@@ -1,4 +1,4 @@
-@import url(/style/header.css);
+@import url(./header.css);
 
 [data-theme="dark"] {
   --bg-000: #131515;
@@ -35,7 +35,7 @@ footer {
   align-items: center;
   justify-content: center;
   font-size: 48px;
-  background-image: url("/assets/img/background-light.svg");
+  background-image: url("../assets/img/background-light.svg");
 }
 
 .section-gap-text {
